@@ -13,6 +13,7 @@
 @interface ViewController ()
 
 @property (nonatomic) IBOutlet ModelContainer *modelContainer;
+@property (nonatomic) IBOutletCollection(NSObject) NSArray *customObjects;
 
 @end
 
